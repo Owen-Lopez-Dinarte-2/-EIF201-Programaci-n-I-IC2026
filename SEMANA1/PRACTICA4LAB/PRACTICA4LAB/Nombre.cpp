@@ -35,12 +35,6 @@ void EncontrarNombreyApellido(std::string nombre) {
 	nom = nombre.substr(0, espacio1);
 	std::cout << "Su Primer nombre seria: " << nom << std::endl;
 
-	/*for (int i = espacio1; i < nombre.length(); i++) {
-		if (nombre[i] == ' ') {
-
-			espacio2 = i;
-		}
-	*/
 	int i = espacio1 + 1;
 	while (condicional == false) {
 
